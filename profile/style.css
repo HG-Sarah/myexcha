@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #667eea;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 40px 32px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+  font-size: 64px;
+  margin-bottom: 12px;
+}
+
+.name {
+  margin: 0;
+  font-size: 22px;
+  color: #333;
+}
+
+.job {
+  margin: 4px 0 20px;
+  color: #667eea;
+  font-weight: bold;
+}
+
+.hobbies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.hobby {
+  background: #eef0fd;
+  color: #667eea;
+  font-size: 13px;
+  padding: 6px 12px;
+  border-radius: 999px;
+}
